@@ -1,4 +1,6 @@
 not "c" file its a python description file
-this is the third file.this is most popular and userfriendly language
+
+this is the third file.This is the amzing programming language.
+
 Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation
 It supports multiple programming paradigms, including structured, object-oriented and functional programming.
