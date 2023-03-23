@@ -4,3 +4,12 @@ this is the third file.This is the amzing programming language.
 
 Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation
 It supports multiple programming paradigms, including structured, object-oriented and functional programming.
+Top Reasons to Learn Python
+  -Data science.
+  -Scientific and mathematical computing.
+  -Web development.
+  -Finance and trading.
+  -System automation and administration.
+  -Computer graphics.
+  -Basic game development.
+  -Security and penetration testing.
