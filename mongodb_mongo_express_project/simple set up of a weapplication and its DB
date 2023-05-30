@@ -1,0 +1,24 @@
+Here we are creating mongo express and mongo DB
+The idea is opening mongo-express in a browser and creating DB -->request send to mongo_express external service -->mongo_express pod -->mongo DB internal service -->mongo DB pod
+using kubernetes
+step 1 :create mongo DB secret file -mongo-secret.yaml
+step 2 :create mongo DB deployment config file -mongo.yaml 
+step 3: $kubectl apply -f mongo-secret.yaml
+        $kubectl apply -f mongo.yaml
+        $kubectl apply get pod
+step 4: create internal service yml file.which is  also created in the same mongo yaml file
+        $kubectl apply -f mongo.yaml
+        $kubectl get service
+step 5: create mongo express deployment,external service,configmap configuration file
+        $kubectl apply -f mongo-configmap.yaml
+        $kubectl apply -f mongo-express.yaml
+        $kubectl get pod
+        create external service file inside the same mongo-express.yaml
+        $kubectl apply -f mongo-express.yaml
+        $kubectl get service
+        
+        $minikube service mongo-express-service
+        will get a URL and open the webpage for mongo-expess
+        
+        
+        
